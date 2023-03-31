@@ -1,0 +1,23 @@
+//Merge sort, bir "divide and conquer" (böl ve yönet) algoritmasıdır. 
+//İlk önce verilen diziyi parçalara ayırır, ardından her parçayı sıralar ve son olarak tüm parçaları birleştirerek sıralı bir dizi oluşturur.
+
+Verilen dizi: [16,21,11,8,12,22]
+
+//Diziyi ikiye ayırın:
+[16,21,11] ve [8,12,22]
+
+//Her iki parçayı da sıralayın:
+[11,16,21] ve [8,12,22]
+
+//İki sıralanmış diziyi birleştirin:
+[8,11,12,16,21,22]
+
+//Böylece, verilen dizinin merge sort ile sıralanmış hali [8,11,12,16,21,22] olur.
+
+//Big-O gösterimi, merge sort için O(n log n) olarak ifade edilir. 
+//Bu, sıralanacak elemanların sayısının logaritmik olarak arttığı bir hızda artan bir zaman karmaşıklığına sahip olduğunu gösterir.
+
+
+
+
+
